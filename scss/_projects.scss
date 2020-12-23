@@ -9,6 +9,8 @@
       rgba($primary-color, 0.9),
       rgba($primary-color, 0.3)
     );
+    background-color: #b0e0e6;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,9 +55,9 @@
     &:hover {
       &::after {
         top: 0;
-        opacity: 0.9;
+        opacity: 1;
       }
-      .projects__btn {
+      .projects_btn {
         opacity: 1;
       }
     }
@@ -73,7 +75,9 @@
     text-align: center;
   }
 
-  &__btn {
+  &_btn {
+    font-size: 1.1rem;
+    font-weight: 500;
     opacity: 0;
     @include transition-ease;
   }

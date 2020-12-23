@@ -75,6 +75,7 @@
     background: $primary-color;
     padding-right: 1rem;
     transform: translateY(-100%);
+    list-style: none;
     @include transition-ease;
 
     &.open {
